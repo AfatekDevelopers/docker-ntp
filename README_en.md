@@ -144,10 +144,10 @@ time.cloudflare.com        35  18  139m     +0.014      0.141   -662us   530us
 time1.google.com           33  13  128m     -0.007      0.138   +318us   460us
 ```
 
-## Geliştirici Bilgileri:
+## Developers:
 <img src="https://github.com/AfatekDevelopers/companyfiles/blob/master/afatek-logo.png?raw=true" width="200"/>
 Web Site        : www.afatek.com.tr <br />
 Developer Groups : https://t.me/Afatek/ <br />
 
-## Not:
-Alıntı [docker-ntp](https://github.com/cturra/docker-ntp)
+## Note:
+Inspired by [docker-ntp](https://github.com/cturra/docker-ntp)

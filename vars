@@ -4,8 +4,8 @@
 # of these to be appropriate for your environment.
 #
 
-IMAGE_NAME="cturra/ntp"
-CONTAINER_NAME="ntp"
+IMAGE_NAME="devafatek/ntpserver"
+CONTAINER_NAME="ntpserver"
 
 # any additional docker run options you may want.
 DOCKER_OPTS="--cap-add SYS_TIME"
