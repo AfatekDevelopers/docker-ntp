@@ -2,9 +2,9 @@ version: '3.4'
 
 services:
   ntp_server:
-    image: devafatek/ntpserver
+    image: devhsmtek/ntpserver
     labels:
-      - "author=devafatek"
+      - "author=devhsmtek"
     container_name: ntp_server
     restart: always
     ports:

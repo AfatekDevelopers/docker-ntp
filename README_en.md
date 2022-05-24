@@ -6,7 +6,7 @@ Pull and run -- it's this simple.
 
 ```
 # pull from docker hub
-$> docker pull devafatek/ntpserver
+$> docker pull devhsmtek/ntpserver
 
 # run ntpserver
 $> docker run --name=ntpserver             \
@@ -14,7 +14,7 @@ $> docker run --name=ntpserver             \
               --detach=true          \
               --publish=123:123/udp  \
               --cap-add=SYS_TIME     \
-              devafatek/ntpserver
+              devhsmtek/ntpserver
 ```
 
 
@@ -25,7 +25,7 @@ Using the docker-compose.yml file included in this git repo, you can build the c
 
 ```
 # pull from docker hub
-$> docker pull devafatek/ntpserver
+$> docker pull devhsmtek/ntpserver
 
 # build ntpserver
 $> docker-compose build ntpserver
@@ -145,9 +145,9 @@ time1.google.com           33  13  128m     -0.007      0.138   +318us   460us
 ```
 
 ## Developers:
-<img src="https://github.com/AfatekDevelopers/companyfiles/blob/master/afatek-logo.png?raw=true" width="200"/>
-Web Site        : www.afatek.com.tr <br />
-Developer Groups : https://t.me/Afatek/ <br />
+<img src="https://github.com/HsmTeknoloji/companyfiles/blob/master/hsmtek-logo.png?raw=true" width="200"/>
+Web Site        : www.hsmteknoloji.com <br />
+Developer Groups : https://t.me/HsmTeknoloji/ <br />
 
 ## Note:
 Inspired by [docker-ntp](https://github.com/cturra/docker-ntp)
